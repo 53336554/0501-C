@@ -1,7 +1,7 @@
 const CONSTS = require('../constants')
 
 function processPlayer (buf, actor, repObj, waitingHandle, dataOut, iteration) {
-	//console.log(waitingHandle);
+  // console.log（'processAPawn handle ='，waitingHandle，actor.guid，buf.remainingBits）
   switch (waitingHandle) {
     case 1:
       if (buf.readBit()) {
