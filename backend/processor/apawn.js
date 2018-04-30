@@ -32,7 +32,7 @@ function processAPawn (buf, actor, repObj, waitingHandle, dataOut) {
       [ownerGuid, owner] = buf.readObject()
       dataOut.apawnOwner = ownerGuid // seems never got a meaningful owner, maybe data error
       break
-    case 14:
+    case 6:
       // this can be airdrop, droppedItemGroup?, or other apawn
       let moving = true
       if (actor.T === CONSTS.ACTOR_TYPES.BOX || actor.T === CONSTS.ACTOR_TYPES.AIRDROP) {
