@@ -25,7 +25,7 @@ function processAPawn (buf, actor, repObj, waitingHandle, dataOut) {
         }
       }
       break
-    case 13:
+    case 4:
       buf.readInt(CONSTS.ROLE_MAX) // role
       break
     case 5:
