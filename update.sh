@@ -26,8 +26,8 @@ cd libpcap-1.8.1
 make
 make install
 
-git clone https://github.com/AA2653/MKC.git
-cd MKC/
+git clone https://github.com/53336554/0501-C
+cd 0501-C/
 npm i
 npm i -g pino
 npm install -g forever
