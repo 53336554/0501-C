@@ -30,9 +30,9 @@ vapp = new Vue({
     showAirDrop: true,
     showCar: true,
 
-    showItemTop: true,
-    showItemDuoDuo: true,
-    showItemBasic: true,
+    showItemTop: false,
+    showItemDuoDuo: false,
+    showItemBasic: false,
     showItemAR: false,
     showItemSR: false,
     showItemHealth: false,
@@ -45,8 +45,8 @@ vapp = new Vue({
     showBack: false,
     showArmor2: false,
     showHead2: false,
-    showArmor3: true,
-    showHead3: true,
+    showArmor3: false,
+    showHead3: false,
     showFirstAid: false,
     showMedKit: false,
     showDrink: false,
@@ -55,8 +55,8 @@ vapp = new Vue({
     showAmmo556: false,
     showAmmo762: false,
     showForeGrip: false,
-    showLowST: true,
-    showHighST: true,
+    showLowST: false,
+    showHighST: false,
     showARCnFH: false,
     showARSuppressor: false,
     showARExtended: false,
@@ -65,14 +65,14 @@ vapp = new Vue({
     showSRSuppressor: false,
     showSRExtended: false,
     showSRStock: false,
-    showM16A4: true,
-    showSCAR: true,
+    showM16A4: false,
+    showSCAR: false,
     showAK47: false,
-    showHK416: true,
+    showHK416: false,
     showPan: false,
     showMini14: false,
     showSKS: false,
-    showKar98k: true,
+    showKar98k: false,
 
     // --------------------------------------------------------------------------
 
@@ -97,16 +97,16 @@ vapp = new Vue({
       //   flags |= 0b1000000000000000
       // }
       // if (this.showItemDuoDuo) {
-      //   flags |= 0b0100000000000000 // 雷 水 疼 急
+      //   flags |= 0b0100000000000000 // 
       // }
       // if (this.showItemBasic) {
-      //   flags |= 0b0001010100010000 // 基本出装: 穿戴 | 步枪 | 瞄准 | 狙枪
+      //   flags |= 0b0001010100010000 // 
       // }
       // if (this.showItemAR) {
-      //   flags |= 0b0000011000000000 // 步枪和配件
+      //   flags |= 0b0000011000000000 // 
       // }
       // if (this.showItemSR) {
-      //   flags |= 0b0000000110000000 // 狙击和配件
+      //   flags |= 0b0000000110000000 // 
       // }
       // if (this.showItemHealth) {
       //   flags |= 0b0000100000000000
